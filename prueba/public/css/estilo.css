@@ -1,0 +1,32 @@
+    #nav{
+        height: 62px;
+        background-color:#ffffff;
+        text-align: center;
+        padding: 0;
+      }
+
+      #nav li{
+          display: inline;
+      }
+  
+      #nav ul{
+         list-style: none;
+         display: inline-block;
+      }
+  
+      #nav ul li{
+          float: left;
+          margin-top: 20px;
+      }
+  
+      #nav ul li a {
+          color: rgb(255, 0, 0);
+          font-weight: bold;
+          text-decoration: none;
+          font-size: 20px;
+          padding: 20px;
+      }
+  
+      #nav ul li a:hover{
+        background-color: #f50202;
+      }
