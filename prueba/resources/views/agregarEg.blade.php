@@ -68,7 +68,7 @@
         
         <ul id="nav">
             <li><a href="listaEgresos">Listado de Egresos</a></li>
-            <li><a href="agregarIngresos">Agregar Ingresos</a></li>
+            <li><a href="/">Agregar Ingresos</a></li>
             <li><a href="listaIngresos">Listado de Ingresos</a></li>
         </ul>
         

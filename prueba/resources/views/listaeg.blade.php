@@ -13,7 +13,7 @@
 <body background="{{ asset('img\orig_29817.jpg') }}">
     
     <ul id="nav">
-        <li><a href="agregarIngresos">Agregar Ingresos</a></li>
+        <li><a href="/">Agregar Ingresos</a></li>
         <li><a href="agregarEgresos">Agregar Egresos</a></li>
         <li><a href="listaIngresos">Listado de Ingresos</a></li>
     </ul>

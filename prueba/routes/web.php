@@ -13,10 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::get('listaIngresos', 'IngresosController@lista');
 
 Route::get('listaIn', 'IngresosController@listaIngresos');
@@ -27,7 +23,7 @@ Route::get('listaEg', 'EgresosController@listaEgresos');
 
 Route::post('/agregarIn', 'IngresosController@agregarIn');
 
-Route::get('agregarIngresos', 'IngresosController@index');
+Route::get('/', 'IngresosController@index');
 
 Route::post('/agregarEg', 'EgresosController@agregarEg');
 
